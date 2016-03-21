@@ -24,7 +24,7 @@
 </Page>	
 ```
 
-### How do I make the statusbar the same color ###
+### How do I make the statusbar the same color?
 ``` js
     if (app.ios) {
         var navigationBar = frame.topmost().ios.controller.navigationBar;;
@@ -34,4 +34,16 @@
         //Optional, stops the AB from being transparent
         navigationBar.translucent = false;
     }
+```
+
+### How do I change the color of the Action Items?
+```xml
+<ActionBar>
+    <ActionBar.actionItems> 
+        <ios>
+            <ActionItem text="CANCEL" ios.position="left" tap="cancelEvent" />
+        </ios>
+        <ActionItem ios:text="DONE" android:text="SAVE" android.color="white" ios.position="right" tap="saveDate" style="color: white" />
+    </ActionBar.actionItems>
+</ActionBar>
 ```
