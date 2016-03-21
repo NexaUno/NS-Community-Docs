@@ -3,6 +3,7 @@
 ## Official Docs
 - [API](https://docs.nativescript.org/ApiReference/ui/action-bar/ActionBar)
 - [How To](https://docs.nativescript.org/ApiReference/ui/action-bar/HOW-TO)
+- [Source](https://github.com/NativeScript/NativeScript/tree/master/ui/action-bar)
 
 ## XML
 ```xml
