@@ -1,4 +1,4 @@
-# Action Bar
+# ListView
 
 ## Official Docs
 - [API](https://docs.nativescript.org/ApiReference/ui/list-view/ListView)
