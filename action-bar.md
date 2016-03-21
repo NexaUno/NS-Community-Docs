@@ -10,7 +10,7 @@ N/A
 
 ### How do I hide the the Action Bar from a specific page?
 ```xml
-	<Page actionBarHidden="true">
-		...
-	</Page>	
+<Page actionBarHidden="true">
+	...
+</Page>	
 ```
