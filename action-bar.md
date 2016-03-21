@@ -23,3 +23,15 @@
 	...
 </Page>	
 ```
+
+### How do I make the statusbar the same color ###
+``` js
+    if (app.ios) {
+        var navigationBar = frame.topmost().ios.controller.navigationBar;;
+        navigationBar.barStyle = 1;
+        navigationBar.tintColor = UIColor.whiteColor();
+        
+        //Optional, stops the AB from being transparent
+        navigationBar.translucent = false;
+    }
+```
