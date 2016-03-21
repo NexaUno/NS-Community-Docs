@@ -1,2 +1,1 @@
-Action Bar
-----------
+# Action Bar
