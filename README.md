@@ -3,3 +3,4 @@ NativeScript Community Docs. Feel free to contribute requesting access from the 
 
 ## Components
 - [Action Bar](action-bar.md)
+- [ListView](list-view.md)
