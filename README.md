@@ -9,5 +9,9 @@ NativeScript Community Docs. Feel free to contribute requesting access from the 
 ## Tutorials
 - [Getting started](http://docs.nativescript.org/start/getting-started): Official Nativescript tutorial.
 
-## Interesting Blogs to follow
+## Experiences
+- [Rebuilding Modulus app](http://developer.telerik.com/content-types/opinion/my-nativescript-experience/)
+
+## Blogs
 - [Nativescript Snacks](http://nativescriptsnacks.com/): Bite-Sized Video Tutorials ...all about NativeScript!
+
