@@ -51,3 +51,16 @@ Set it to the same color as the background
 ``` xml
 <ListView items="{{ listItems }}" separatorColor="#FFF">
 ```
+
+### Remove the listview selection color on click ###
+``` xml
+<ListView itemLoading="onListViewLoadingFixSelectState">
+```
+``` js
+exports.onListViewLoadingFixSelectState = function (args) {
+    if (frame.topmost().ios) {
+        var cell = args.ios;
+        cell.selectionStyle = UITableViewCellSelectionStyle.UITableViewCellSelectionStyleNone;
+    }
+}
+```
