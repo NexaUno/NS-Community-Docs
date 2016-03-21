@@ -35,15 +35,3 @@
         navigationBar.translucent = false;
     }
 ```
-
-### How do I change the color of the Action Items?
-```xml
-<ActionBar>
-    <ActionBar.actionItems> 
-        <ios>
-            <ActionItem text="CANCEL" ios.position="left" tap="cancelEvent" />
-        </ios>
-        <ActionItem ios:text="DONE" android:text="SAVE" android.color="white" ios.position="right" tap="saveDate" style="color: white" />
-    </ActionBar.actionItems>
-</ActionBar>
-```
