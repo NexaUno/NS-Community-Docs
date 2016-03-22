@@ -14,6 +14,9 @@ NativeScript Community Docs. Feel free to contribute requesting access from the 
 
 ## Blogs
 - [Nativescript Snacks](http://nativescriptsnacks.com/): Bite-Sized Video Tutorials ...all about NativeScript!
+- [FluentReports](http://fluentreports.com/blog/)
 
 ## Resources
 - [NativeScript XML snippets for Visual Studio Code](https://github.com/tsvetan-ganev/nativescript-vscode-snippets)
+- [Plugin Aggregator](http://plugins.nativescript.rocks/)
+- [Feature Voting](https://nativescript.ideas.aha.io/ideas)
