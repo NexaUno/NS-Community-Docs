@@ -8,6 +8,7 @@ NativeScript Community Docs. Feel free to contribute requesting access from the 
 
 ## Snippets
 - [Change CSS Styles dynamically](snippets/change-styles-dynamically.md)
+- [Use Icon fonts. Ex. FontAwesome](snippets/icon-fonts.md)
 
 
 ## Tutorials
