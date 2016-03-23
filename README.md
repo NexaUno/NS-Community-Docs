@@ -7,7 +7,7 @@ NativeScript Community Docs. Feel free to contribute requesting access from the 
 - [ListView](list-view.md)
 
 ## Snippets
-- Change CSS Styles dynamically(snippets/change-styles-dynamically.md)
+- [Change CSS Styles dynamically](snippets/change-styles-dynamically.md)
 
 
 ## Tutorials
