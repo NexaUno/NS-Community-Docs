@@ -16,6 +16,39 @@
 </Page>
 ```
 
+##Angular + TypeScript Version
+
+### HTML file
+```html
+<listView *ngFor="let item of items">
+  <Label text="{{item.title}}"></Label>  
+</listview>
+```
+
+###TypeScript file
+```ts
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'my-list-view',
+  templateUrl: 'list.component.html'
+})
+export class ComponentNameComponent implements OnInit {
+  items: Object[];
+  constructor() { }
+
+  ngOnInit() {
+    this.items = [
+      {title: "item1"},
+      {title: "item2"},
+      {title: "item3"},
+      {title: "item4"}
+    ]
+   }
+
+}
+```
+
 ## Cookbook
 
 ### Why isn't the listview fullscreen?
